@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 24H Deleviry</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="product-page">
+        <div class="container">
+            <!-- Product Gallery -->
+            <div class="product-gallery">
+                <!-- Zoom Container -->
+                <div class="main-image-container" id="zoom-container">
+                    <img src="https://pawera4u.com/cdn/shop/files/6_MealsAutomaticPetFeeder_1_1800x1800.webp?v=1692737237" alt="Automatic 6-Meal Pet Feeder" id="main-product-image">
+                </div>
+                <div class="thumbnail-list">
+                    <div class="thumbnail-item active">
+                        <img src="https://pawera4u.com/cdn/shop/files/6_MealsAutomaticPetFeeder_1_1800x1800.webp?v=1692737237" alt="Thumbnail 1" class="thumbnail-img">
+                    </div>
+                    <div class="thumbnail-item">
+                        <img src="https://pawera4u.com/cdn/shop/files/6_MealsAutomaticPetFeeder_2_1800x1800.webp?v=1692737237" alt="Thumbnail 2" class="thumbnail-img">
+                    </div>
+                    <div class="thumbnail-item">
+                        <img src="https://pawera4u.com/cdn/shop/files/6_MealsAutomaticPetFeeder_3_1800x1800.webp?v=1692737237" alt="Thumbnail 3" class="thumbnail-img">
+                    </div>
+                    <div class="thumbnail-item">
+                        <img src="https://pawera4u.com/cdn/shop/files/6_MealsAutomaticPetFeeder_4_1800x1800.webp?v=1692737237" alt="Thumbnail 4" class="thumbnail-img">
+                    </div>
+                     <div class="thumbnail-item">
+                        <img src="https://pawera4u.com/cdn/shop/files/6_MealsAutomaticPetFeeder_5_1800x1800.webp?v=1692737237" alt="Thumbnail 5" class="thumbnail-img">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Details -->
+            <div class="product-details">
+                <h1 class="product-title">Automatic 6-Meal Pet Feeder Timed Dispenser for Cats & Dogs</h1>
+                
+                <div class="price-section">
+                    <span class="current-price">£39.99</span>
+                    <span class="original-price">£27.45</span>
+                    <p >Shipping calculated at checkout.</p>
+  
+                </div>
+                
+
+                <div class="stock-status">
+                    <span class="stock-dot"></span>
+                    In stock
+                </div>
+
+                <div class="product-meta">
+                    <p>Brand : <span class="product-brand"></span></p>
+                    <p>Model Number: <span class="product-sku"></span></p>
+                </div>
+
+                <div class="quantity-selector">
+                    <label for="quantity">Quntity :</label>
+                    <div class="quantity-controls">
+                        <button id="decrease-quantity">-</button>
+                        <input type="number" id="quantity" value="1" min="">
+                        <button id="increase-quantity">+</button>
+                    </div>
+                </div>
+
+                <button class="add-to-cart-btn">
+                    <ion-icon name="cart-outline"></ion-icon>
+                  add to cart
+                </button>
+
+                <button class="buy-now-btn">Buy Now</button>
+
+                <div class="product-description">
+                    <h2 class="description-title">Discribtion</h2>
+                    <p>
+                        The dog feeder is the one-stop solution for busy dogs. You can schedule up to 6 feedings.
+                    </p>
+                    <ul id="product-features-list"></ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- New Sections Added Here -->
+        <div class="additional-sections">
+            <!-- Customer Reviews Section -->
+            <section class="customer-reviews">
+                <h2 class="section-title">Customer reviews</h2>
+                   <div class="review-center">
+                     <div class="review-header">
+                        <div id="reviews-container"></div>
+                    </div>
+                   
+                
+                    <div class="review-header">
+                       <div id="reviews-container"></div>
+                    </div>
+                   </div>
+                    
+                </div>
+            </section>
+
+           
+        </div>
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="scriptt.js"></script>
+</body>
+</html>
