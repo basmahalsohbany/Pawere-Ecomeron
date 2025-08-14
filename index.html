@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pawera - Find your Pet Suppliess</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./animal.png" type="image/svg+xml">
+
+  <!-- 
+    - css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+
+  <!-- 
+    - preload banner
+  -->
+  <link rel="preload" href="./assets/images/hero-banner.png" as="image">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-1.jpg" width="160" height="80" alt="pawera logo">
+      </a>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo-1.jpg" width="190" height="80" alt="pawera logo">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Products</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">section</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">About Us</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Login</a>
+          </li>
+
+        </ul>
+
+        <ul class="nav-action-list">
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Search</span>
+            </button>
+          </li>
+
+          <li>
+            <a href="#" class="nav-action-btn">
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Login / Register</span>
+            </a>
+          </li>
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Wishlist</span>
+
+              <data class="nav-action-badge" value="5" aria-hidden="true">5</data>
+            </button>
+          </li>
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+
+              <data class="nav-action-text" value="318.00">Basket: <strong>$318.00</strong></data>
+
+              <data class="nav-action-badge" value="4" aria-hidden="true">4</data>
+            </button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero"  >
+         <div class="hero-bg"></div>
+         <div class="background-circle"></div>
+        <div class="container">
+
+          <h2 class="h1 hero-title">
+            The Best Choice for <strong>Your Pet Supplies</strong>
+          </h2>
+
+          <p class="hero-text">
+            We provide everything your furry friend needs — from luxury beds and fun toys to healthy treats and stylish accessories. Because their comfort and happiness are always our priority!
+          </p>
+
+          <button class="btn btn-primary">
+            <span>Shop Now</span>
+
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #COLLECTION
+      -->
+
+
+      <section class="categories section">
+            <div class="container">
+                <div class="categories-grid">
+                    <div class="category-card" data-category="dogs">
+                        <div class="category-image" style="background-image: url('./assets/images/dog2.jpg')">
+                            <div class="category-overlay">
+                                <h3 class="category-title" data-translate="dogs-category">DOG Category</h3>
+                                <button class="btn btn-secondary">
+                                    <span data-translate="explore-all">Explor All</span>
+                                    <i class="fas fa-arrow-left"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card" data-category="cats">
+                        <div class="category-image" style="background-image: url('./assets/images/cat2.jpg')">
+                            <div class="category-overlay">
+                                <h3 class="category-title" data-translate="cats-category">CAT Category</h3>
+                                <button class="btn btn-secondary">
+                                    <span data-translate="explore-all">Explor All</span>
+                                    <i class="fas fa-arrow-left"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card" data-category="birds">
+                        <div class="category-image" style="background-image: url('./assets/images/bird.jpg')">
+                            <div class="category-overlay">
+                                <h3 class="category-title" data-translate="birds-category">BIRD Category</h3>
+                                <button class="btn btn-secondary">
+                                    <span data-translate="explore-all">Explor All</span>
+                                    <i class="fas fa-arrow-left"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card" data-category="fish">
+                        <div class="category-image" style="background-image: url('./assets/images/fish.jpg')">
+                            <div class="category-overlay">
+                                <h3 class="category-title" data-translate="fish-category">FISH Category</h3>
+                                <button class="btn btn-secondary">
+                                    <span data-translate="explore-all">Explor All</span>
+                                    <i class="fas fa-arrow-left"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+      <!-- 
+        - #PRODUCT
+      -->
+
+      <section class="section product">
+  <div class="container">
+    <h2 class="h2 section-title">Bestsellers Products</h2>
+
+    <ul class="filter-list">
+      <li>
+        <button class="filter-btn active" data-target="all">All</button>
+      </li>
+      <li>
+        <button class="filter-btn" data-target="dog-supplies">Dog Supplies</button>
+      </li>
+      <li>
+        <button class="filter-btn" data-target="cat-supplies">Cat Supplies</button>
+      </li>
+      <li>
+        <button class="filter-btn" data-target="bird-supplies">Bird Supplies</button>
+      </li>
+      <li>
+        <button class="filter-btn" data-target="fish-supplies">Fish Supplies</button>
+      </li>
+      <li>
+        <button class="filter-btn" data-target="smart-express-delivery">smart Express Delivery</button>
+      </li>
+    </ul>
+
+    <ul class="product-list">
+      <!-- first prodect -->
+      <li class="product-item" data-target="dog-supplies" data-id="Dog-bowl">
+        <div class="product-card" tabindex="0">
+          <figure class="card-banner">
+            <img
+              src="./assets/images/dogs/Dog bowl/Dog bowl-111.png"
+              width="312"
+              height="350"
+              loading="lazy"
+              alt="Dog bowl"
+              class="image-contain"
+            />
+             <a href="./project type/project type.html?id=Dog-bowl" class="product-link card-badge">
+                 Buy
+            </a>
+            <ul class="card-action-list">
+              <!-- زر عرض الصور -->
+              <li class="card-action-item">
+                <button
+                  class="card-action-btn gallery-btn"
+                  data-images="
+                        ./assets/images/dogs/Dog bowl/Dog bowl in-33.png,
+                        ./assets/images/dogs/Dog bowl/Dog bowl in-22.png,
+                         ./assets/images/dogs/Dog bowl/Dog bowl in-44.png,
+                          ./assets/images/dogs/Dog bowl/Dog bowl in-55.png,
+                           ./assets/images/dogs/Dog bowl/Dog bowl in-66.png,
+                            ./assets/images/dogs/Dog bowl/Dog bowl in-77.png,
+                             ./assets/images/dogs/Dog bowl/Dog bowl in-88.png,
+                              ./assets/images/dogs/Dog bowl/Dog bowl in-99.png
+                      "
+                  aria-labelledby="card-label-gallery"
+                >
+                  <ion-icon name="images-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-gallery">View Gallery</div>
+              </li>
+
+              <li class="card-action-item">
+                <button class="card-action-btn" aria-labelledby="card-label-1">
+                  <ion-icon name="cart-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+              </li>
+
+              <li class="card-action-item">
+                <button class="card-action-btn" aria-labelledby="card-label-2">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+              </li>
+
+              <li class="card-action-item">
+                <button class="card-action-btn" aria-labelledby="card-label-3">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+              </li>
+
+              <li class="card-action-item">
+                <button
+                  class="card-action-btn gallery-btn"
+                  data-images="./assets/images/dogs/Dog bowl/Dog bowl in-1.png,
+                      ./assets/images/dogs/Dog bowl/Dog bowl in-2.png,
+                      ./assets/images/dogs/Dog bowl/Dog bowl in-3.png,"
+                  aria-labelledby="card-label-gallery"
+                >
+                  <ion-icon name="repeat-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-4">Color</div>
+              </li>
+            </ul>
+          </figure>
+
+          <div class="card-content">
+            <div class="card-cat">
+              <a href="#" class="card-cat-link">PawHut</a>
+            </div>
+            <h3 class="h3 card-title">
+              <a href="#">Dog bowl</a>
+            </h3>
+            <data class="card-price" value="180.85">$180.85</data>
+          </div>
+        </div>
+      </li>
+      <!-- / first prodect -->
+
+       <!-- second prodect -->
+      <li class="product-item" data-target="dog-supplies" data-id="Smart-Pet-Hair-Dryer-Dog ">
+        <div class="product-card" tabindex="0">
+          <figure class="card-banner">
+            <img
+              src="./assets/images/dogs/Smart Pet Hair Dryer Dog/Smart-Pet-Hair-Dryer-Dog.jpg"
+              width="312"
+              height="350"
+              loading="lazy"
+              alt="Dog bowl"
+              class="image-contain"
+            />
+             <a href="./project type/project type.html?id=Smart-Pet-Hair-Dryer-Dog" class="product-link card-badge">
+                 Buy
+            </a>
+            <ul class="card-action-list">
+              
+              <li class="card-action-item">
+                <button class="card-action-btn" aria-labelledby="card-label-1">
+                  <ion-icon name="cart-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+              </li>
+
+              <li class="card-action-item">
+                <button class="card-action-btn" aria-labelledby="card-label-2">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+              </li>
+
+              <li class="card-action-item">
+                <button class="card-action-btn" aria-labelledby="card-label-3">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+              </li>
+
+              <li class="card-action-item">
+                <button
+                  class="card-action-btn gallery-btn"
+                  data-images="./assets/images/dogs/Dog bowl/Dog bowl in-1.png,
+                      ./assets/images/dogs/Dog bowl/Dog bowl in-2.png,
+                      ./assets/images/dogs/Dog bowl/Dog bowl in-3.png,"
+                  aria-labelledby="card-label-gallery"
+                >
+                  <ion-icon name="repeat-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-4">Color</div>
+              </li>
+            </ul>
+          </figure>
+
+          <div class="card-content">
+            <div class="card-cat">
+              <a href="#" class="card-cat-link">PawHut</a>
+            </div>
+            <h3 class="h3 card-title">
+              <a href="#">Smart Pet Hair Dryer Dog </a>
+            </h3>
+            <data class="card-price" value="58.99">£58.99</data>
+          </div>
+        </div>
+      </li>
+      <!-- / second prodect -->
+
+       <!-- Third prodect -->
+      <li class="product-item" data-target="cat-supplies" data-id="Cat-Bed-Pet-Winter">
+        <div class="product-card" tabindex="0">
+          <figure class="card-banner">
+            <img
+              src="./assets/images/cat/Cat Bed Pet Winter/Cat Bed Pet Winter-brown-1.jpeg"
+              width="312"
+              height="350"
+              loading="lazy"
+              alt="Dog bowl"
+              class="image-contain"
+            />
+             <a href="./project type/project type.html?id=Cat-Bed-Pet-Winter" class="product-link card-badge">
+                 Buy
+            </a>
+            <ul class="card-action-list">
+              
+              <li class="card-action-item">
+                <button class="card-action-btn" aria-labelledby="card-label-1">
+                  <ion-icon name="cart-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+              </li>
+
+              <li class="card-action-item">
+                <button class="card-action-btn" aria-labelledby="card-label-2">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+              </li>
+
+              <li class="card-action-item">
+                <button class="card-action-btn" aria-labelledby="card-label-3">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+              </li>
+
+              <li class="card-action-item">
+                <button
+                  class="card-action-btn gallery-btn"
+                  data-images="./assets/images/dogs/Dog bowl/Dog bowl in-1.png,
+                      ./assets/images/dogs/Dog bowl/Dog bowl in-2.png,
+                      ./assets/images/dogs/Dog bowl/Dog bowl in-3.png,"
+                  aria-labelledby="card-label-gallery"
+                >
+                  <ion-icon name="repeat-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-4">Color</div>
+              </li>
+            </ul>
+          </figure>
+
+          <div class="card-content">
+            <div class="card-cat">
+              <a href="#" class="card-cat-link">PawHut</a>
+            </div>
+            <h3 class="h3 card-title">
+              <a href="#">Cat or Dog Bed Pet Winter </a>
+            </h3>
+            <data class="card-price" value="49.92">£49.92</data>
+          </div>
+        </div>
+      </li>
+      <!-- / third prodect -->
+
+       <!-- fourth prodect -->
+      <li class="product-item" data-target="dog-supplies" data-id="Smart-Pet-Hair-Dryer-Dog ">
+        <div class="product-card" tabindex="0">
+          <figure class="card-banner">
+            <img
+              src="./assets/images/dogs/Smart Pet Hair Dryer Dog/Smart-Pet-Hair-Dryer-Dog.jpg"
+              width="312"
+              height="350"
+              loading="lazy"
+              alt="Dog bowl"
+              class="image-contain"
+            />
+             <a href="./project type/project type.html?id=Smart-Pet-Hair-Dryer-Dog" class="product-link card-badge">
+                 Buy
+            </a>
+            <ul class="card-action-list">
+              
+              <li class="card-action-item">
+                <button class="card-action-btn" aria-labelledby="card-label-1">
+                  <ion-icon name="cart-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+              </li>
+
+              <li class="card-action-item">
+                <button class="card-action-btn" aria-labelledby="card-label-2">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+              </li>
+
+              <li class="card-action-item">
+                <button class="card-action-btn" aria-labelledby="card-label-3">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+              </li>
+
+              <li class="card-action-item">
+                <button
+                  class="card-action-btn gallery-btn"
+                  data-images="./assets/images/dogs/Dog bowl/Dog bowl in-1.png,
+                      ./assets/images/dogs/Dog bowl/Dog bowl in-2.png,
+                      ./assets/images/dogs/Dog bowl/Dog bowl in-3.png,"
+                  aria-labelledby="card-label-gallery"
+                >
+                  <ion-icon name="repeat-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-4">Color</div>
+              </li>
+            </ul>
+          </figure>
+
+          <div class="card-content">
+            <div class="card-cat">
+              <a href="#" class="card-cat-link">PawHut</a>
+            </div>
+            <h3 class="h3 card-title">
+              <a href="#">Smart Pet Hair Dryer Dog </a>
+            </h3>
+            <data class="card-price" value="58.99">£58.99</data>
+          </div>
+        </div>
+      </li>
+      <!-- / fourth prodect -->
+
+       <!-- fifth prodect -->
+      <li class="product-item" data-target="dog-supplies" data-id="Smart-Pet-Hair-Dryer-Dog ">
+        <div class="product-card" tabindex="0">
+          <figure class="card-banner">
+            <img
+              src="./assets/images/dogs/Smart Pet Hair Dryer Dog/Smart-Pet-Hair-Dryer-Dog.jpg"
+              width="312"
+              height="350"
+              loading="lazy"
+              alt="Dog bowl"
+              class="image-contain"
+            />
+             <a href="./project type/project type.html?id=Smart-Pet-Hair-Dryer-Dog" class="product-link card-badge">
+                 Buy
+            </a>
+            <ul class="card-action-list">
+              
+              <li class="card-action-item">
+                <button class="card-action-btn" aria-labelledby="card-label-1">
+                  <ion-icon name="cart-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+              </li>
+
+              <li class="card-action-item">
+                <button class="card-action-btn" aria-labelledby="card-label-2">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+              </li>
+
+              <li class="card-action-item">
+                <button class="card-action-btn" aria-labelledby="card-label-3">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+              </li>
+
+              <li class="card-action-item">
+                <button
+                  class="card-action-btn gallery-btn"
+                  data-images="./assets/images/dogs/Dog bowl/Dog bowl in-1.png,
+                      ./assets/images/dogs/Dog bowl/Dog bowl in-2.png,
+                      ./assets/images/dogs/Dog bowl/Dog bowl in-3.png,"
+                  aria-labelledby="card-label-gallery"
+                >
+                  <ion-icon name="repeat-outline"></ion-icon>
+                </button>
+                <div class="card-action-tooltip" id="card-label-4">Color</div>
+              </li>
+            </ul>
+          </figure>
+
+          <div class="card-content">
+            <div class="card-cat">
+              <a href="#" class="card-cat-link">PawHut</a>
+            </div>
+            <h3 class="h3 card-title">
+              <a href="#">Smart Pet Hair Dryer Dog </a>
+            </h3>
+            <data class="card-price" value="58.99">£58.99</data>
+          </div>
+        </div>
+      </li>
+      <!-- / fifth prodect -->
+
+
+     
+    </ul>
+  </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta">
+        <div class="container">
+
+          <ul class="cta-list">
+
+            <li>
+             <div class="cta__card">
+               <div class="cta-card" style="background-image: url('./assets/images/image-1.webp')">
+                <p class="card-subtitle">Portable Playpen </p>
+
+                <h3 class="h2 card-title">
+                 for Happy Pets  
+                </h3>
+
+                <a href="#" class="btn btn-link">
+                  <span>Shop Now</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+              
+              <p class="cta__button">
+                Keep your pets safe, active, and entertained with this spacious and lightweight foldable playpen. Ideal for both indoor and outdoor use, it offers plenty of room for playtime while ensuring maximum ventilation and visibility. Easy to set up and store, it's the perfect solution for travel, picnics, or relaxing in the backyard.
+              </p>
+             
+             </div>
+             
+            </li>
+            
+            <li>
+             <div class="cta__card">
+               <div class="cta-card" style="background-image: url('./assets/images/image-2.jpg')">
+                <p class="card-subtitle">The Perfect Haven </p>
+
+                <h3 class="h2 card-title">
+                 for Happy Pets  
+                </h3>
+
+                <a href="#" class="btn btn-link">
+                  <span>Shop Now</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+              
+              <p class="cta__button">
+               Give your cats or small pets a cozy and secure home with this modern, multifunctional wooden design. Featuring a stylish multi-level shelter and an integrated flowerpot for herbs or decorative plants, it adds a natural and elegant touch to your garden. Expertly crafted for all seasons, providing both comfort and protection .
+              </p>
+             
+             </div>
+             
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SPECIAL
+      -->
+
+      <section class="section special">
+        <div class="container">
+
+          <div class="special-banner" style="background-image: url('./assets/images/24h\ deliver.jpg')">
+            <h2 class="h3 banner-title">Smart Express Deals </h2>
+            <p style="color: white;">24H UK Delivery</p>
+          </div>
+
+          <div class="special-product">
+
+            <h2 class="h2 section-title">
+              <span class="text">24H Delivery</span>
+
+              <span class="line"></span>
+            </h2>
+
+            <ul class="has-scrollbar">
+               <!-- first 24h prodect -->
+              <li class="product-item" data-id="Automatic-6-Meal">
+                <div class="product-card" tabindex="0">
+
+                  <figure class="card-banner">
+                    <img src="./assets/images/24h/image-1-2h4-9.jpg" width="312" height="350" loading="lazy"
+                      alt="Running Sneaker Shoes" class="image-contain">
+                      <a href="./24h prodect/24h-delivery prodect.html?id=Automatic-6-Meal" class="product-link card-badge">
+                      Buy
+                      </a>
+                    <ul class="card-action-list">
+
+                      
+                      
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-1">
+                          <ion-icon name="cart-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-2">
+                          <ion-icon name="heart-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-3">
+                          <ion-icon name="eye-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-4">
+                          <ion-icon name="repeat-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                      </li>
+
+                    </ul>
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">PawHut</a> 
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Automatic 6-Meal Pet Feeder </a>
+                    </h3>
+
+                    <data class="card-price" value="27.45">£27.45</data>
+
+                  </div>
+
+                </div>
+              
+              <!-- /first 24h prodect -->
+
+               <!-- second 24h prodect -->
+              <li class="product-item" data-id="Pet-Dog-Bed-Cat-Beds ">
+                <div class="product-card" tabindex="0">
+
+                  <figure class="card-banner">
+                    <img src="./assets/images/24h/Pet Dog Bed Cat Beds -1.webp" width="312" height="350" loading="lazy"
+                      alt="Running Sneaker Shoes" class="image-contain">
+                      <a href="./24h prodect/24h-delivery prodect.html?id=Pet-Dog-Bed-Cat-Beds" class="product-link card-badge">
+                      Buy
+                      </a>
+                    <ul class="card-action-list">
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-1">
+                          <ion-icon name="cart-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-2">
+                          <ion-icon name="heart-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-3">
+                          <ion-icon name="eye-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-4">
+                          <ion-icon name="repeat-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                      </li>
+
+                    </ul>
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">PawHut</a> 
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Pet Dog Bed Cat Beds  </a>
+                    </h3>
+
+                    <data class="card-price" value="78.22">£78.22</data>
+
+                  </div>
+
+                </div>
+              </li>
+              <!-- /second 24h prodect -->
+
+               <!-- Third 24h prodect -->
+              <li class="product-item" data-id="Bird-Feeder-Squirrel-Resistant">
+                <div class="product-card" tabindex="0">
+
+                  <figure class="card-banner">
+                    <img src="./24h prodect/24h/Bird-Feeder-Squirrel-Resistant-1.webp" width="312" height="350" loading="lazy"
+                      alt="Running Sneaker Shoes" class="image-contain">
+                      <a href="./24h prodect/24h-delivery prodect.html?id=Bird-Feeder-Squirrel-Resistant" class="product-link card-badge">
+                      Buy
+                      </a>
+                    <ul class="card-action-list">
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-1">
+                          <ion-icon name="cart-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-2">
+                          <ion-icon name="heart-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-3">
+                          <ion-icon name="eye-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-4">
+                          <ion-icon name="repeat-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                      </li>
+
+                    </ul>
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">PawHut</a> 
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Bird Feeder Squirrel Resistant </a>
+                    </h3>
+
+                    <data class="card-price" value="48.37">£48.37</data>
+
+                  </div>
+
+                </div>
+              </li>
+              <!-- /Third 24h prodect -->
+
+              <!-- /fourth 24h prodect -->
+              <li class="product-item" data-id="Retractable-Lead-Leash">
+                <div class="product-card" tabindex="0">
+
+                  <figure class="card-banner">
+                    <img src="./24h prodect/24h/Retractable Lead Leash-9.webp" width="312" height="350" loading="lazy"
+                      alt="Running Sneaker Shoes" class="image-contain">
+                      <a href="./24h prodect/24h-delivery prodect.html?id=Retractable-Lead-Leash" class="product-link card-badge">
+                      Buy
+                      </a>
+                    <ul class="card-action-list">
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-1">
+                          <ion-icon name="cart-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-2">
+                          <ion-icon name="heart-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-3">
+                          <ion-icon name="eye-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-4">
+                          <ion-icon name="repeat-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                      </li>
+
+                    </ul>
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">PawHut</a> 
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Retractable Lead Leash </a>
+                    </h3>
+
+                    <data class="card-price" value="30.00">£30.00</data>
+
+                  </div>
+
+                </div>
+              </li>
+              <!-- /Fourth 24h prodect -->
+
+
+
+             
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service">
+        <div class="container">
+           <h2 class="h2 section-title">Our Service</h2>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-1.png" width="53" height="28" loading="lazy" alt="Service icon">
+                </div>
+
+                <div>
+                  <h3 class="h4 card-title">Free Shiping</h3>
+
+                  <p class="card-text">
+                    All orders over <span>$150</span>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-2.png" width="43" height="35" loading="lazy" alt="Service icon">
+                </div>
+
+                <div>
+                  <h3 class="h4 card-title">Quick Payment</h3>
+
+                  <p class="card-text">
+                    100% secure payment
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-3.png" width="40" height="40" loading="lazy" alt="Service icon">
+                </div>
+
+                <div>
+                  <h3 class="h4 card-title">Free Returns</h3>
+
+                  <p class="card-text">
+                    Money back in 30 days
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-4.png" width="40" height="40" loading="lazy" alt="Service icon">
+                </div>
+
+                <div>
+                  <h3 class="h4 card-title">24/7 Support</h3>
+
+                  <p class="card-text">
+                    Get Quick Support
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+       <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-header">
+                     <h2 class="h2 about-title">About Us</h2>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3 data-translate=" welcome-title">🐾Welcome to Pawera – Your Pet's Favorite Place!</h3>
+                        <p data-translate="about-description-1">
+                           At Pawera, we believe that pets are not just animals – they are family. Our mission is simple: to provide high-quality pet products and accessories that bring comfort, joy, and style to your furry friends.
+                        </p>
+                        <p data-translate="about-description-2">
+                           We carefully curate our collection from trusted suppliers to ensure that every product meets our high standards of safety, durability, and quality.
+                        </p>
+                    </div>
+                    
+                    <div class="about-features">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h4 data-translate="location-title">Based in London, United Kingdom</h4>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <h4 data-translate="company-title">Operated by RASHEED ALMKHLAFY LTD</h4>
+                            <p>Number Of Compan : ( 16569090)</p>
+                            
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <h4 data-translate="service-title">Serving pet lovers across the UK and worldwide</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-1.jpg" width="160" height="80" alt="Footcap logo">
+          </a>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/pawera4u/?igsh=MXJ4ZHYzazV4bGVxbw%3D%3D#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.tiktok.com/@pawera4u" class="social-link">
+                <ion-icon name="logo-tiktok"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Contact Us</p>
+            </li>
+            
+            <li>
+              <address class="footer-link">
+                <ion-icon name="location"></ion-icon>
+
+                <span class="footer-link-text">
+                  128 City Road, London, EC1V 2NX, United Kingdom
+                </span>
+              </address>
+            </li>
+
+            <li>
+              <a href="tel:+557343673257" class="footer-link">
+                <ion-icon name="call"></ion-icon>
+
+                <span class="footer-link-text">+44 7723348113</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:footcap@help.com" class="footer-link">
+                <ion-icon name="mail"></ion-icon>
+
+                <span class="footer-link-text">pawera4u@gmail.com</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">My Account</p>
+            </li>
+
+          
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">Trade Name: </span><p>PAWERA</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">Company Name:</span><p> RASHEED ALMKHLAFY LTD</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">Trade Number (Company No.): </span><p>16569090</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">VAT Number:</span><p> [1016623885]</p>
+              </a>
+            </li>
+
+        
+          </ul>
+
+
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Buysletter</p>
+
+            <p class="newsletter-text">
+              Authoritatively morph 24/7 potentialities with error-free partnerships.
+            </p>
+
+            <form action="" class="newsletter-form">
+              <input type="email" name="email" required placeholder="Email Address" class="newsletter-input">
+
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+
+          </div>
+
+        </div>
+
+       
+        <div class="footer-links">
+          <a href="contact.html">Contact us here</a>
+          <a href="contact-info.html">Contact Information</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="refund.html">Refund Policy</a>
+          <a href="shipping.html">Shipping Policy</a>
+        </div>
+        <div class="payment-icons">
+          <img src="./assets/images/amex.png" alt="American Express">
+          <img src="./assets/images/applepay.png" alt="Apple Pay">
+          <img src="./assets/images/diners.png" alt="Diners Club">
+          <img src="./assets/images/discover.png" alt="Discover">
+          <img src="./assets/images/googlepay.png" alt="Google Pay">
+          <img src="./assets/images/mastercard.png" alt="Mastercard">
+          <img src="./assets/images/paypal.png" alt="PayPal">
+          <img src="./assets/images/shopify.png" alt="Shopify">
+          <img src="./assets/images/unionpay.png" alt="UnionPay">
+          <img src="./assets/images/visa.png" alt="Visa">
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+   
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top-btn" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
