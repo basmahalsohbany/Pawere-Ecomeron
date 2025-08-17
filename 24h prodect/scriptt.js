@@ -25,14 +25,14 @@ if (!window.myProductPageInitialized) {
                 checkout : 'Shipping calculated at checkout',
                 description: 'The dog feeder is the one-stop solution for busy dogs. You can schedule up to 6 feedings.',
                 images: [
-                    'E:/peware4u/24h prodect/24h/image-1-2h4-1.jpg',
-                    'E:/peware4u/24h prodect/24h/image-1-2h4-2.jpg',
-                    'E:/peware4u/24h prodect/24h/image-1-2h4-3.jpg',
-                    'E:/peware4u/24h prodect/24h/image-1-2h4-4.jpg',
-                    'E:/peware4u/24h prodect/24h/image-1-2h4-5.jpg',
-                    'E:/peware4u/24h prodect/24h/image-1-2h4-6.jpg',
-                    'E:/peware4u/24h prodect/24h/image-1-2h4-7.jpg',
-                    'E:/peware4u/24h prodect/24h/image-1-2h4-8.jpg'
+                    '../24h prodect/24h/image-1-2h4-1.jpg',
+                    '../24h prodect/24h/image-1-2h4-2.jpg',
+                    '../24h prodect/24h/image-1-2h4-3.jpg',
+                    '../24h prodect/24h/image-1-2h4-4.jpg',
+                    '../24h prodect/24h/image-1-2h4-5.jpg',
+                    '../24h prodect/24h/image-1-2h4-6.jpg',
+                    '../24h prodect/24h/image-1-2h4-7.jpg',
+                    '../24h prodect/24h/image-1-2h4-8.jpg'
                 ],
                 features: [
                     'Schedules 6 meals.',
@@ -59,10 +59,10 @@ if (!window.myProductPageInitialized) {
                 checkout : 'Shipping calculated at checkout',
                 description: 'Pet Dog Bed Cat Beds Luxury Soft Washable Puppy Cushion Warm Pet Basket- 90 70CM',
                 images: [
-                    'E:/peware4u/24h prodect/24h/Pet Dog Bed Cat Beds -3.webp',
-                    'E:/peware4u/24h prodect/24h/Pet Dog Bed Cat Beds -4.webp',
-                    'E:/peware4u/24h prodect/24h/Pet Dog Bed Cat Beds -5.webp',
-                    'E:/peware4u/24h prodect/24h/Pet Dog Bed Cat Beds -2.jpj'
+                    '../24h prodect/24h/Pet Dog Bed Cat Beds -3.webp',
+                    '../24h prodect/24h/Pet Dog Bed Cat Beds -4.webp',
+                    '../24h prodect/24h/Pet Dog Bed Cat Beds 5.webp',
+                    '../24h prodect/24h/Pet Dog Bed Cat Beds-2.jpg'
                 ],
                 features: [
                     "SOFT & COMFERTABLE DOG BED --- Feature for all season using, our pet bed for dog and cat made of both two sides using design,one side made of waterproof oxford fabric for the exterior ,suitable for Spring and Summer, the other side is soft warm fleece for the interior, suitable for Autumn and Winter.",
@@ -101,14 +101,14 @@ if (!window.myProductPageInitialized) {
                 checkout : 'Shipping calculated at checkout',
                 description: 'Bird Feeder Squirrel Resistant Bird Hanging Metal Feeding Station Green',
                 images: [
-                    'E:/peware4u/24h prodect/24h/Bird-Feeder-Squirrel-Resistant-2.webp',
-                    'E:/peware4u/24h prodect/24h/Bird-Feeder-Squirrel-Resistant-3.webp',
-                    'E:/peware4u/24h prodect/24h/Bird-Feeder-Squirrel-Resistant-4.webp',
-                    'E:/peware4u/24h prodect/24h/Bird-Feeder-Squirrel-Resistant-5.webp',
-                    'E:/peware4u/24h prodect/24h/Bird-Feeder-Squirrel-Resistant-6.webp',
-                    'E:/peware4u/24h prodect/24h/Bird-Feeder-Squirrel-Resistant-7.webp',
-                    'E:/peware4u/24h prodect/24h/Bird-Feeder-Squirrel-Resistant-8.webp',
-                    'E:/peware4u/24h prodect/24h/Bird-Feeder-Squirrel-Resistant-9.webp'
+                    '../24h prodect/24h/Bird-Feeder-Squirrel-Resistant-2.webp',
+                    '../24h prodect/24h/Bird-Feeder-Squirrel-Resistant-3.webp',
+                    '../24h prodect/24h/Bird-Feeder-Squirrel-Resistant-4.webp',
+                    '../24h prodect/24h/Bird-Feeder-Squirrel-Resistant-5.webp',
+                    '../24h prodect/24h/Bird-Feeder-Squirrel-Resistant-6.webp',
+                    '../24h prodect/24h/Bird-Feeder-Squirrel-Resistant-7.webp',
+                    '../24h prodect/24h/Bird-Feeder-Squirrel-Resistant-8.webp',
+                    '../24h prodect/24h/Bird-Feeder-Squirrel-Resistant-9.webp'
                 ],
                 features: [
                     "SQUIRREL PROOF DESIGN -- This large, heavy-duty feeder is expertly crafted to resist squirrels and large birds, ensuring your bird food is protected and smaller birds can feed peacefully. bird feeders; bird feeder; bird feeders for small birds; bird feeders hanging.",
@@ -138,14 +138,14 @@ if (!window.myProductPageInitialized) {
                 checkout : 'Shipping calculated at checkout',
                 description: 'Bird Feeder Squirrel Resistant Bird Hanging Metal Feeding Station Green',
                 images: [
-                    'E:/peware4u/24h prodect/24h/Retractable Lead Leash-2.webp',
-                    'E:/peware4u/24h prodect/24h/Retractable Lead Leash-3.webp',
-                    'E:/peware4u/24h prodect/24h/Retractable Lead Leash-4.webp',
-                    'E:/peware4u/24h prodect/24h/Retractable Lead Leash-5.webp',
-                    'E:/peware4u/24h prodect/24h/Retractable Lead Leash-6.webp',
-                    'E:/peware4u/24h prodect/24h/Retractable Lead Leash-7.webp',
-                    'E:/peware4u/24h prodect/24h/Retractable Lead Leash-8.webp',
-                    'E:/peware4u/24h prodect/24h/Retractable Lead Leash-9.webp',
+                    '../24h prodect/24h/Retractable Lead Leash-2.webp',
+                    '../24h prodect/24h/Retractable Lead Leash-3.webp',
+                    '../24h prodect/24h/Retractable Lead Leash-4.webp',
+                    '../24h prodect/24h/Retractable Lead Leash-5.webp',
+                    '../24h prodect/24h/Retractable Lead Leash-6.webp',
+                    '../24h prodect/24h/Retractable Lead Leash-7.webp',
+                    '../24h prodect/24h/Retractable Lead Leash-8.webp',
+                    '../24h prodect/24h/Retractable Lead Leash-9.webp',
                 ],
                 features: [
                     "Feed your pet on schedule with this automatic 6-meal feeder. Ideal for cats and small dogs, it dispenses food at preset times—perfect for daily routines or holidays.",
