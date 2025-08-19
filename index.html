@@ -113,21 +113,24 @@
           <li>
             <button class="nav-action-btn">
               <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              <data class="nav-action-badge" value="5" aria-hidden="true">0</data>
 
-              <span class="nav-action-text">Wishlist</span>
+              <ion-icon name="cart-outline" aria-hidden="true" id="cart-btn"></ion-icon>
+              <data class="nav-action-badge" value="5" aria-hidden="true" id="cart-count">0</data>
 
-              <data class="nav-action-badge" value="5" aria-hidden="true">5</data>
+            
+
+            <!-- القائمة المنسدلة -->
+            <div class="cart-dropdown" id="cart-dropdown">
+              <h4> Your Shopping Cart</h4>
+              <ul id="cart-items"></ul>
+              <p>Total: <strong id="cart-total">0.00</strong> $</p>
+            </div>
             </button>
           </li>
 
           <li>
-            <button class="nav-action-btn">
-              <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
 
-              <data class="nav-action-text" value="318.00">Basket: <strong>$318.00</strong></data>
-
-              <data class="nav-action-badge" value="4" aria-hidden="true">4</data>
-            </button>
           </li>
 
         </ul>

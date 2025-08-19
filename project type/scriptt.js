@@ -991,6 +991,45 @@ if (!window.myProductPageInitialized) {
             updateSelection();
         }
 
+
+
+        // الحصول على العناصر من DOM
+const addToCartBtn = document.querySelector('.add-to-cart-btn');
+const buyNowBtn = document.querySelector('.buy-now-btn');
+const quantityInput = document.getElementById('quantity');
+const productTitle = document.querySelector('.product-title').innerText;
+const productPrice = document.querySelector('.current-price').innerText;
+
+// دالة لإضافة المنتج إلى السلة
+function addToCart() {
+    const quantity = parseInt(quantityInput.value);
+    if (quantity > 0) {
+        // هنا يمكنك إضافة الكود الخاص بإضافة المنتج إلى السلة
+        console.log(`Added ${quantity} of ${productTitle} to cart at ${productPrice}`);
+        alert(`${quantity} of ${productTitle} has been added to your cart.`);
+    } else {
+        alert('Please select a valid quantity.');
+    }
+}
+
+// دالة للشراء الآن
+function buyNow() {
+    const quantity = parseInt(quantityInput.value);
+    if (quantity > 0) {
+        // هنا يمكنك إضافة الكود الخاص بعملية الشراء
+        console.log(`Proceeding to checkout for ${quantity} of ${productTitle} at ${productPrice}`);
+        alert(`Proceeding to checkout for ${quantity} of ${productTitle}.`);
+        // يمكنك توجيه المستخدم إلى صفحة الدفع هنا
+    } else {
+        alert('Please select a valid quantity.');
+    }
+}
+
+// إضافة الأحداث للأزرار
+addToCartBtn.addEventListener('click', addToCart);
+buyNowBtn.addEventListener('click', buyNow);
+
+
         // --- 5. نقطة البداية والتحكم في الكمية وزر الإغلاق ---
         const params = new URLSearchParams(window.location.search);
         const productId = params.get('id') || 'Stylish-Pet-Carrier'; // منتج افتراضي لعرض المثال الجديد

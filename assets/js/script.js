@@ -128,3 +128,55 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+
+
+
+
+// cart
+
+     let cart = [];
+    let cartCount = document.getElementById("cart-count");
+    let cartItems = document.getElementById("cart-items");
+    let cartTotal = document.getElementById("cart-total");
+    let cartDropdown = document.getElementById("cart-dropdown");
+    let cartBtn = document.getElementById("cart-btn");
+
+    // دالة لإضافة منتج للسلة
+    function addToCart(name, price) {
+      cart.push({ name, price });
+      updateCart();
+    }
+
+    // تحديث السلة
+    function updateCart() {
+      cartCount.textContent = cart.length;
+
+      cartItems.innerHTML = "";
+      let total = 0;
+
+      cart.forEach(item => {
+        total += item.price;
+        let li = document.createElement("li");
+        li.textContent = `${item.name} - $${item.price.toFixed(2)}`;
+        cartItems.appendChild(li);
+      });
+
+      cartTotal.textContent = total.toFixed(2);
+    }
+
+    // إظهار/إخفاء القائمة عند الضغط على زر السلة
+    cartBtn.addEventListener("click", () => {
+      cartDropdown.style.display =
+        cartDropdown.style.display === "block" ? "none" : "block";
+    });
+
+    // ربط أزرار "أضف للسلة"
+    document.querySelectorAll(".add-to-cart").forEach(btn => {
+      btn.addEventListener("click", () => {
+        let name = btn.getAttribute("data-name");
+        let price = parseFloat(btn.getAttribute("data-price"));
+        addToCart(name, price);
+      });
+    });
+
+
